@@ -1,0 +1,84 @@
+# =========================
+# OS / System
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Node / JavaScript
+# (in case tooling is added later)
+# =========================
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.npm/
+.eslintcache
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# =========================
+# Temporary / Generated
+# =========================
+tmp/
+temp/
+*.bak
+*.orig
+
+# =========================
+# Archives (usually not source)
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# =========================
+# PDFs and DOCX
+# =========================
+# NOTE:
+# We intentionally DO NOT ignore .pdf or .docx globally
+# because AgentNet standards are authoritative artifacts.
+#
+# If you later generate derived PDFs (e.g. exports),
+# ignore them explicitly by path, not by extension.
+
+# =========================
+# End of file
+# =========================
